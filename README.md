@@ -12,15 +12,19 @@ Kriterien:
 - Es sollten mindestens 3 importierte Dateien in der CSS-Hauptdatei enthalten sein (in der Haupt CSS-Datei)
 - Dateien sind mit einer Verzeichnisstruktur organisiert, die Dateien nach Seite und Funktionalität trennt.
 - Auf jeder Seite gibt es entsprechende Links für einen guten Benutzerfluss.
+
 **Design**
 - Benutzerdefinierte Bilder, Layouts und Stile
 - Typografie: die Seiten enthalten Überschriften (mindestens h1 bis h3), Absatztext mit Formatierung f, Links und Zitate.ett, kursiv, unterstrichen 
 - Es werden mindestens 3 Farben verwendet.
+
 **Layout**
 - Flexbox- und Grid-basiertes Layout wird im gesamten Projekt mindestens jeweils zweimal verwendet.
+
 **Responsiveness**
 - Die Seiten sind mobilfreundlich und werden auf allen Bildschirmgrößen (Handy, Tablet, Desktop) korrekt angezeigt.
 [Hinweis Simulate Mobile Devices] (https://developers.google.com/web/tools/chrome-devtools/device-mode/)
+
 **CSS-Formatierung**
 - Der Code enthält keine nachgestellten Leerzeichen.
 - Der Einzug ist konsistent (entweder alle Tabulatoren oder alle 2 Leerzeichen oder alle 4 Leerzeichen usw.).
