@@ -1,0 +1,30 @@
+/* CSS für index.html */
+@import url("style.css");
+
+blockquote { 
+	color:slateblue;
+	font-style: italic;
+	min-width: 80%;
+	margin: auto;
+	padding-bottom: 0.6em;
+}
+
+/* Kopfbereich */
+header { 
+	background: #F1F3F4;
+	border-color: #d5d5d5;
+	grid-area: hd;
+	/*border: 1px dotted red;*/
+}
+
+section {
+	background: #F1F3F4;
+	border-color: slateblue;
+}
+
+@media (min-width:900px) {
+	.container { /* Haupt-Container */
+    width: 70%;
+	height: 50%;
+    }
+}

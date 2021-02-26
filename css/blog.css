@@ -1,0 +1,67 @@
+/* CSS für blog-site.html */
+@import url("style.css");
+
+/* Kopfbereich */
+header {
+    background: #dedaf0;
+    border-color: #663399;
+    grid-area: hd;
+}
+.hd-nested {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.hd-nested img {
+    width: 150px;
+}
+
+section {
+	background: #e6f0e3;
+    border-color:#006633;
+    box-shadow: 1em 2em 4em #888888;
+    margin-bottom: 4.6em;
+}
+.social-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: auto;
+}
+.social-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	/*border: 1px solid red; */
+}
+section img {
+    width: 60px;
+    height: 60px;
+    margin: 1em 0;
+}
+.link-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+div.link-box li, article li {
+    list-style-type: circle !important;
+    margin-left: -1.6em;
+}
+
+@media (min-width:900px) {
+    
+	.container { /* Haupt-Container */
+        width: 90%; /* Zusatz für Blog */
+        height: 80%; /* Zusatz für Blog */
+    }
+    .hd-nested {
+		display: grid;
+		grid-template-columns: 25% 50% 25%;
+    }
+    .social-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+    }
+}
