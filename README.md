@@ -29,11 +29,13 @@ Kriterien:
 - Der Code enthält keine nachgestellten Leerzeichen.
 - Der Einzug ist konsistent (entweder alle Tabulatoren oder alle 2 Leerzeichen oder alle 4 Leerzeichen usw.).
 - Code rückt alle Inhalte ein, dh Regeln innerhalb von Regeln sowie Deklarationen, um die Hierarchie widerzuspiegeln und das Verständnis zu verbessern.
-- Der Code verwendet aus Gründen der Konsistenz und Erweiterbarkeit nach jeder Deklaration ein Semikolon.
-- Code verwendet aus Konsistenzgründen immer ein Leerzeichen nach dem Doppelpunkt eines Eigenschaftsnamens, jedoch kein Leerzeichen zwischen Eigenschaft und Doppelpunkt.
-- Code verwendet immer ein einzelnes Leerzeichen zwischen dem letzten Selektor und der öffnenden Klammer, mit der der Deklarationsblock beginnt. Code beginnt immer eine neue Zeile für jeden Selektor und jede Deklaration.
-- Code setzt immer eine Leerzeile (zwei Zeilenumbrüche) zwischen Regeln.
-- Code verwendet konsistente Anführungszeichen für Attributselektoren oder Eigenschaftswerte (einfach oder doppelt).
-- Der Code verwendet aussagekräftige oder generische ID- und Klassennamen, die so kurz wie möglich, aber so lang wie nötig sind.
-- Der Code verwendet keine Elementnamen in Verbindung mit IDs oder Klassen.
-- Der Code verwendet nach Möglichkeit Kurzschrift-Eigenschaften.
+- Der Code verwendet aus Gründen der Konsistenz und Erweiterbarkeit:
+  - nach jeder Deklaration ein Semikolon.
+  - immer ein Leerzeichen nach dem Doppelpunkt eines Eigenschaftsnamens, jedoch kein Leerzeichen zwischen Eigenschaft und Doppelpunkt.
+  - immer ein einzelnes Leerzeichen zwischen dem letzten Selektor und der öffnenden Klammer, mit der der Deklarationsblock beginnt. 
+  - beginnt immer eine neue Zeile für jeden Selektor und jede Deklaration.
+  - setzt immer eine Leerzeile (zwei Zeilenumbrüche) zwischen Regeln.
+  - verwendet konsistente Anführungszeichen für Attributselektoren oder Eigenschaftswerte (einfach oder doppelt),
+  - aussagekräftige oder generische ID- und Klassennamen, die so kurz wie möglich, aber so lang wie nötig sind.
+  - keine Elementnamen in Verbindung mit IDs oder Klassen.
+  - verwendet nach Möglichkeit Kurzschrift-Eigenschaften.
